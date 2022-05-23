@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    width: 180px;
+    padding-bottom: 30px;
+}
+
+.form-registro {
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 16%;
+    height: 0;
+}
+
+.form-control {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ff5fd2;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.table-registros {
+    padding-left: 18%;
+    width:99%;
+    height: 0;
+}
+
+.table-registros-modificar {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width:100%;
+}
+
+.caja-busqueda {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.contenedor-tabla {
+    width: 100%;
+    height: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contenedor-img {
+    padding-left: 5%;
+}
+
+.contenedor-img-modificar {
+    padding-left: 1%;
+    padding-top: 2%;
+}
+
+.img-buscar {
+    width: 200px;
+}
+ td, th, tr {
+     text-align: center;
+ }
+
+ .boton-depuracion_empleados {
+     padding: 5%;
+ }
+
+ .deletedatamain, .deletedata, .deletedatageneral {
+    background-color: hotpink;
+    color: hotpink;
+ }

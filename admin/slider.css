@@ -1,0 +1,47 @@
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 5%;
+    max-width:600px;
+    max-height: 360px;
+}
+
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 400%;
+    /*Animación de imagenes*/
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    /*Tipo de animación*/
+    animation-timing-function: ease;
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+/*Paso de imagenes*/
+@keyframes cambio {
+    /*1era imagen*/
+    0%{margin-left: 0;}
+    20%{margin-bottom: 0;}
+
+    /*2da imagen*/
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    /*3era imagen*/
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    /*4ta imagen*/
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
